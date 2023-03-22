@@ -1,3 +1,4 @@
+![stringToJSON extension screenshot](stringToJSON_screenshot.png)
 # stringToJSON
 Chrome/Edge browser extension to convert any JSON like string to JSON format
 Follow the following to install on your Edge/Chrome based browsers
