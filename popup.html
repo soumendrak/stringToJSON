@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+            body {
+                width: 400px;
+                font-family: Arial, sans-serif;
+                background-color: #f2f2f2;
+                padding: 20px;
+            }
+
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            textarea {
+                width: 100%;
+                box-sizing: border-box;
+                resize: none;
+            }
+
+            button {
+                background-color: #4caf50;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 10px 2px;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+            #outputText {
+                background-color: white;
+                padding: 10px;
+                border-radius: 4px;
+            }
+
+        </style>
+        <script src="popup.js"></script>
+    </head>
+
+    <body>
+        <h1>String to JSON Converter</h1>
+        <textarea id="inputText" rows="8"></textarea>
+        <button id="convertButton">Convert</button>
+        <h2>Result</h2>
+        <pre id="outputText" style="white-space: pre-wrap;"></pre>
+        <button id="copyButton">Copy to Clipboard</button>
+    </body>
+
+</html>
